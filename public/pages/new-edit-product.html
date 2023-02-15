@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "../js/enterprise-interface.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../">Para usuario</a></li>
+            <li><a href="./enterprise-interface.html">Para empresa</a></li>
+        </ul>
+    </nav>
+    <h2 id = 'titulo'>Ingrese nuevo producto</h2>
+
+    <a href="./enterprise-interface.html">Volver</a>
+    <form action="productos" method = "post">
+        <div>
+            <label for="title">Producto: </label>
+            <input type="text" id = "title" name = "title">
+        </div>
+        <div>
+            <label for="description">Descripción: </label>
+            <input type="text" id = "description" name = "description">
+        </div>
+        <div>
+            <label for="code">Código: </label>
+            <input type="text" id = "code" name = "code">
+        </div>
+        <div>
+            <label for="stock">Stock: </label>
+            <input type="number" id = "stock" name = "stock">
+        </div>
+        <div>
+            <label for="price">Precio: </label>
+            <input type="number" id = "price" name = "price">
+        </div>
+        <div>
+            <label for="thumbnail">Ruta de imagen: </label>
+            <input type="text" id = "thumbnail" name = "thumbnail">
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <script src="../js/enterprise-interface.js"></script>
+</body>
+</html>
